@@ -48,7 +48,7 @@ const handleSubmit = async (e) => {
   formData.append("file", file);
 
   try {
-    const response = await fetch("http://localhost:8000/api/image-to-text", {
+    const response = await fetch("http://173.249.60.195/api/image-to-text", {
       method: "POST",
       body: formData,
     });
