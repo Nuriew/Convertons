@@ -28,7 +28,7 @@ app = FastAPI()
 # CORS Ayarı
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://173.249.60.195/"],
+    allow_origins=["http://173.249.60.195"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -66,7 +66,7 @@ class LimitUploadSizeMiddleware(BaseHTTPMiddleware):
     async def dispatch(self, request: Request, call_next):
         route_limits = {
             "/api/video-to-mp3": 50 * 1024 * 1024,       # 50 MB
-            "/api/convert-to-pdf": 0.05 * 1024 * 1024,     # 10 MB
+            "/api/convert-to-pdf": 10 * 1024 * 1024,     # 10 MB
             "/api/image-to-text": 10 * 1024 * 1024       # 10 MB
         }
 
