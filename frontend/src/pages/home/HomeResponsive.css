@@ -1,0 +1,148 @@
+@media screen and (max-width: 1250px) {
+    .uploadBar {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+.videotomp3Label {
+    min-width: 260px;
+    max-width: 260px;
+}
+
+.videoPreview {
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 1000px) {
+
+.uploadBar {
+    width: 80%;
+}
+
+.videotomp3Label {
+    min-width: 240px;
+    max-width: 240px;
+    height: 170px;
+}
+
+.videoPreview {
+    max-width: 238px;
+    min-width: 235px;
+}
+}
+
+@media screen and (max-width: 800px) {
+
+.uploadBar {
+    width: 90%;
+}
+
+.videotomp3Label {
+    min-width: 240px;
+    max-width: 240px;
+    height: 170px;
+}
+
+.videoPreview {
+    max-width: 238px;
+    min-width: 235px;
+}
+}
+
+@media screen and (max-width: 670px) {
+
+.uploadBar {
+    min-height: max-content;
+    display: block;
+    padding:10px;
+    
+}
+
+.videotomp3Label {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 260px;
+    margin-bottom: 20px;
+}
+
+.videoPreview {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 260px;
+    min-height: 260px;
+    margin-bottom: 20px;
+}
+
+.videoPreview video {
+    height: 260px;
+}
+
+.audioButtonBar {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    gap: 10px;
+    position: relative;
+    top: 5px
+}
+
+}
+
+@media screen and (max-width: 485px) {
+h1 {
+    font-size: 28px;
+}
+
+.uploadBar {
+    height: max-content;
+    display: block;
+    padding:10px;
+}
+.videotomp3Label {
+    min-height: 220px;
+    margin-bottom: 20px;
+}
+
+.videoPreview {
+    max-height: 220px;
+    min-height: 220px;
+    margin-bottom: 20px;
+}
+
+.videoPreview video {
+    height: 219px;
+}
+}
+
+@media screen and (max-width: 400px) {
+.uploadBar {
+    height: max-content;
+    display: block;
+    padding:10px;
+}
+.videotomp3Label {
+    min-height: 200px;
+    margin-bottom: 20px;
+}
+
+.videoPreview {
+    max-height: 200px;
+    min-height: 200px;
+    margin-bottom: 20px;
+}
+
+.videoPreview video {
+    height: 199px;
+}
+
+.downloadButton {
+    width: 100%;
+}
+
+
+}

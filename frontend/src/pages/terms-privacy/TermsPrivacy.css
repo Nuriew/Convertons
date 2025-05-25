@@ -1,0 +1,33 @@
+.contextContainer {
+    width: 100%;
+    position: relative;
+    top: -10pc;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+.contextBar {
+    max-width: 700px;
+    margin: 0 auto;
+    padding:10px 30px 30px;
+    padding-bottom: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    color: #1e1e2f;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+@media screen and (max-width: 950px) {
+    .contextBar {
+        max-width: 74%;
+    }   
+}
+
+@media screen and (max-width: 500px) {
+    .contextBar {
+        max-width: 80%;
+        padding:10px 25px;
+    }   
+}

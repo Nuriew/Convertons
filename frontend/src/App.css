@@ -1,0 +1,45 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  background-color: #222;
+}
+
+button {
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: linear-gradient(-45deg, #FC466B 0%, #3F5EFB 100%);
+    color: #fff;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #444;
+    cursor: not-allowed;
+}
+
+.downloadButtons button{
+  font-size: 18px;
+  width: 200px;
+  height: 50px;
+  background: #00b941;
+}
+
+.downloadButtons button:hover{
+  background: #00a93b;
+}
+
+
+.resetButton {
+  width: 120px;
+  height: 50px;
+  background: rgb(228, 0, 0);
+}
+
+.resetButton:hover {
+  background: #cd0000;
+}

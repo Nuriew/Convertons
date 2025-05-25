@@ -1,0 +1,45 @@
+@media screen and (max-width: 1250px) {
+    .imageToTextBar {
+        max-width: 69%;
+    } 
+}
+
+@media screen and (max-width: 1000px) {
+    .imageToTextBar {
+        max-width: 79%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .imageToTextBar {
+        max-width: 89%;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .imageToTextBar {
+        padding: 10px;
+    }
+
+    .imageToTextContainer h1{
+        font-size: 28px;
+    }
+
+    .resultText {
+        white-space: pre-wrap;
+        word-break: break-word;
+        overflow-wrap: break-word;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .imageToTextContainer h1{
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .imageToTextContainer h1{
+        font-size: 24px;
+    }
+}

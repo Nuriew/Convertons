@@ -1,0 +1,30 @@
+@media screen and (max-width: 1250px) {
+  .pdfConvertBar {
+    max-width: 70%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .pdfConvertBar {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+    .pdfConvertBar {
+        max-width: 90%;
+        font-family: 'lato', sans-serif;
+    }   
+}
+
+@media screen and (max-width: 700px) {
+    .pdfConvertBar {
+        padding: 30px 8px;
+    }   
+}
+
+@media screen and (max-width: 500px) {
+    .pdfConvertBar b {
+        font-size: 16px;
+    } 
+}

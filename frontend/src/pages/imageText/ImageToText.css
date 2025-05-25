@@ -1,0 +1,120 @@
+.imageToTextContainer {
+  width: 100%;
+  height: max-content;
+  margin: -10pc auto;
+  margin-bottom: 1pc;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+.imageToTextBar {
+  max-width: 890px;
+  min-height: 250px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 16px;
+  background-color: #f9f9f9;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.errorMessage {
+  color: rgb(184, 0, 0);
+  margin-bottom: 15px;
+}
+
+.textLabel {
+    font-size: 22px;
+    min-width: 300px;
+    height: 170px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+    color: #777;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.textLabel:hover {
+  background: #333;
+  color: #fff;
+}
+
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonWrapper {
+  width: 200px;
+}
+
+.submit-button {
+  margin-bottom: 10px;
+}
+
+.resultContainer {
+  margin-top: 20px;
+  color: #333;
+  text-align: start;
+  font-family: 'Lato', sans-serif;
+}
+
+.resultText {
+  font-size: 17px;
+  max-width: 90%;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: start;
+  font-family: 'Lato', sans-serif;
+}
+
+.previewContainer {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.previewImage {
+  max-width: 100%;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.copyButton {
+  width: 120px;
+  height: 50px;
+  color: #000;
+  background: #f2f2f2;
+  border: 1px solid #ccc;
+}
+
+.copyButton:focus {
+  color:#00b941;
+}
+
+.textDownloadButtons {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 20px;
+  font-family: 'Lato', sans-serif
+}
+
+.textDownloadButtons button{
+  background: #00b941;
+  font-family: 'Lato', sans-serif
+}
+
+.textDownloadButtons button:hover{
+  background: #009e37;
+  font-family: 'Lato', sans-serif
+}
+

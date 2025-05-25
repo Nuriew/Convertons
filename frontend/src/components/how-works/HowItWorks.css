@@ -1,0 +1,77 @@
+.howContainer {
+    max-width: 890px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(-45deg, #FC466B 0%, #3F5EFB 100%);
+    border-radius: 12px;
+}
+
+.how-title {
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.how-steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.how-step {
+  flex: 1 1 200px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.how-step:hover {
+  transform: translateY(-5px);
+}
+
+.step-number {
+  font-size: 28px;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.how-step h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #0066cc;
+}
+
+.how-step p {
+  font-size: 16px;
+  color: #555;
+}
+
+@media screen and (max-width: 1250px) {
+  .howContainer {
+    width: 69%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .howContainer {
+    width: 79%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .howContainer {
+    width: 89%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .howContainer {
+    padding: 13px;
+  }
+}
