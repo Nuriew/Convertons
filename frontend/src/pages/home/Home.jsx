@@ -48,7 +48,7 @@ const handleConvert = async () => {
     formData.append('file', videoFile);
 
     try {
-        const response = await fetch('/api/video-to-mp3', {
+        const response = await fetch('http://173.249.60.195/api/video-to-mp3', {
             method: 'POST',
             body: formData
         });
