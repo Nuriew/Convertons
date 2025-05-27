@@ -83,6 +83,10 @@ class LimitUploadSizeMiddleware(BaseHTTPMiddleware):
 
 app.add_middleware(LimitUploadSizeMiddleware)
 
+@app.get("/")
+async def root():
+    return {"message": "API çalışıyor."}
+
 # 🎞 Video'dan MP3'e
 @app.post("/api/video-to-mp3")
 @limiter.limit("7/minute")
